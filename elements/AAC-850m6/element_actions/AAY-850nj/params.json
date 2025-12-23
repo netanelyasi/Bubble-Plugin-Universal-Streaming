@@ -1,71 +1,71 @@
-﻿{
-    "fields":  {
-                   "AAc":  {
-                               "rank":  3,
-                               "default_val":  "You are a helpful assistant.",
-                               "doc":  "System prompt",
-                               "name":  "system",
-                               "value":  "text",
-                               "optional":  true,
-                               "caption":  "System Message",
-                               "editor":  "DynamicValue"
-                           },
-                   "AAe":  {
-                               "rank":  5,
-                               "default_val":  0.7,
-                               "doc":  "0=deterministic, 1=creative",
-                               "name":  "temperature",
-                               "value":  "number",
-                               "optional":  true,
-                               "caption":  "Temperature",
-                               "editor":  "DynamicValue"
-                           },
-                   "AAd":  {
-                               "value":  "text",
-                               "name":  "user",
-                               "caption":  "User Input",
-                               "doc":  "User message",
-                               "editor":  "DynamicValue",
-                               "default_val":  "",
-                               "rank":  4
-                           },
-                   "AAa":  {
-                               "value":  "text",
-                               "name":  "api_key",
-                               "caption":  "API Key",
-                               "doc":  "Your API Key",
-                               "editor":  "DynamicValue",
-                               "default_val":  "",
-                               "rank":  1
-                           },
-                   "AAZ":  {
-                               "value":  "text",
-                               "name":  "api_url",
-                               "caption":  "API URL",
-                               "doc":  "API Endpoint URL",
-                               "editor":  "DynamicValue",
-                               "default_val":  "https://api.openai.com/v1/chat/completions",
-                               "rank":  0
-                           },
-                   "AAf":  {
-                               "rank":  6,
-                               "default_val":  4096,
-                               "doc":  "Maximum response tokens",
-                               "name":  "max_tokens",
-                               "value":  "number",
-                               "optional":  true,
-                               "caption":  "Max Tokens",
-                               "editor":  "DynamicValue"
-                           },
-                   "AAb":  {
-                               "value":  "text",
-                               "name":  "model",
-                               "caption":  "Model",
-                               "doc":  "Model Name",
-                               "editor":  "DynamicValue",
-                               "default_val":  "gpt-4o",
-                               "rank":  2
-                           }
-               },
-    "caption":  "Generate Output"
+{
+    "caption": "Generate Output",
+    "fields": {
+        "AAZ": {
+            "caption": "API URL",
+            "default_val": "https://api.openai.com/v1/chat/completions",
+            "doc": "API Endpoint URL",
+            "editor": "DynamicValue",
+            "name": "api_url",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAa": {
+            "caption": "API Key",
+            "default_val": "",
+            "doc": "Your API Key",
+            "editor": "DynamicValue",
+            "name": "api_key",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAb": {
+            "caption": "Model",
+            "default_val": "gpt-4o",
+            "doc": "Model Name",
+            "editor": "DynamicValue",
+            "name": "model",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAc": {
+            "caption": "System Message",
+            "default_val": "You are a helpful assistant.",
+            "doc": "System prompt",
+            "editor": "DynamicValue",
+            "name": "system",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        },
+        "AAd": {
+            "caption": "User Input",
+            "default_val": "",
+            "doc": "User message",
+            "editor": "DynamicValue",
+            "name": "user",
+            "rank": 4,
+            "value": "text"
+        },
+        "AAe": {
+            "caption": "Temperature",
+            "default_val": 0.7,
+            "doc": "0=deterministic, 1=creative",
+            "editor": "DynamicValue",
+            "name": "temperature",
+            "optional": true,
+            "rank": 5,
+            "value": "number"
+        },
+        "AAf": {
+            "caption": "Max Tokens",
+            "default_val": 4096,
+            "doc": "Maximum response tokens",
+            "editor": "DynamicValue",
+            "name": "max_tokens",
+            "optional": true,
+            "rank": 6,
+            "value": "number"
+        }
+    }
 }

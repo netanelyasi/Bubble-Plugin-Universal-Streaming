@@ -1,76 +1,76 @@
-﻿{
-    "can_fit_width":  true,
-    "category":  "visual elements",
-    "icon":  "ion-android-checkbox-blank",
-    "can_fit_height":  true,
-    "events":  {
-                   "ABE":  {
-                               "name":  "error_occurred",
-                               "caption":  "Error Occurred"
-                           },
-                   "ABC":  {
-                               "name":  "output_cleared",
-                               "caption":  "Output Cleared"
-                           },
-                   "ABD":  {
-                               "name":  "generation_stopped",
-                               "caption":  "Generation Stopped"
-                           },
-                   "AAK":  {
-                               "name":  "output_generation_completed",
-                               "caption":  "Output Generation Completed"
-                           }
-               },
-    "default_dim":  {
-                        "height":  83,
-                        "width":  195
-                    },
-    "display":  "UniversalStreaming",
-    "add_is_visible":  true,
-    "property_applications":  {
-                                  "resizable":  true,
-                                  "MinWidth":  true
-                              },
-    "states":  {
-                   "AAL":  {
-                               "caption":  "Response Time",
-                               "name":  "response_time",
-                               "value":  "number",
-                               "initialization_code":  {
-                                                           "fn":  "function(properties, context) { return 0; }"
-                                                       }
-                           },
-                   "AAJ":  {
-                               "caption":  "Output",
-                               "name":  "output",
-                               "value":  "text",
-                               "initialization_code":  {
-                                                           "fn":  "function(properties, context) { return ""; }"
-                                                       }
-                           },
-                   "AAi":  {
-                               "caption":  "Is Loading",
-                               "name":  "is_loading",
-                               "value":  "boolean",
-                               "initialization_code":  {
-                                                           "fn":  "function(properties, context) { return false; }"
-                                                       }
-                           },
-                   "AAM":  {
-                               "caption":  "Tokens",
-                               "name":  "tokens",
-                               "value":  "number",
-                               "initialization_code":  {
-                                                           "fn":  "function(properties, context) { return 0; }"
-                                                       }
-                           },
-                   "AAh":  {
-                               "caption":  "Error",
-                               "name":  "error",
-                               "value":  "text",
-                               "initialization_code":  {
-                                                           "fn":  "function(properties, context) { return ""; }"
-                                                       }
-                           }
-               }
+{
+    "add_is_visible": true,
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 83,
+        "width": 195
+    },
+    "display": "UniversalStreaming",
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "events": {
+        "AAK": {
+            "caption": "Output Generation Completed",
+            "name": "output_generation_completed"
+        },
+        "ABC": {
+            "caption": "Output Cleared",
+            "name": "output_cleared"
+        },
+        "ABD": {
+            "caption": "Generation Stopped",
+            "name": "generation_stopped"
+        },
+        "ABE": {
+            "caption": "Error Occurred",
+            "name": "error_occurred"
+        }
+    },
+    "states": {
+        "AAJ": {
+            "caption": "Output",
+            "name": "output",
+            "value": "text",
+            "initialization_code": {
+                "fn": "function(properties, context) { return \"\"; }"
+            }
+        },
+        "AAL": {
+            "caption": "Response Time",
+            "name": "response_time",
+            "value": "number",
+            "initialization_code": {
+                "fn": "function(properties, context) { return 0; }"
+            }
+        },
+        "AAM": {
+            "caption": "Tokens",
+            "name": "tokens",
+            "value": "number",
+            "initialization_code": {
+                "fn": "function(properties, context) { return 0; }"
+            }
+        },
+        "AAh": {
+            "caption": "Error",
+            "name": "error",
+            "value": "text",
+            "initialization_code": {
+                "fn": "function(properties, context) { return \"\"; }"
+            }
+        },
+        "AAi": {
+            "caption": "Is Loading",
+            "name": "is_loading",
+            "value": "boolean",
+            "initialization_code": {
+                "fn": "function(properties, context) { return false; }"
+            }
+        }
+    }
 }
