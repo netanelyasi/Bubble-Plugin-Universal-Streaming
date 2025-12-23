@@ -1,0 +1,60 @@
+{
+    "caption": "Generate Output",
+    "fields": {
+        "AAZ": {
+            "caption": "API URL",
+            "default_val": "https://api.openai.com/v1/chat/completions",
+            "doc": "The API Endpoint URL",
+            "editor": "DynamicValue",
+            "name": "api_url",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAa": {
+            "caption": "API Key",
+            "default_val": "",
+            "doc": "The Authorization Key without Bearer",
+            "editor": "DynamicValue",
+            "name": "api_key",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAb": {
+            "caption": "Model",
+            "default_val": "gpt-4o",
+            "doc": "The Model Name",
+            "editor": "DynamicValue",
+            "name": "model",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAc": {
+            "caption": "System Input",
+            "default_val": "You are helpful Assistant",
+            "doc": "Defining the model",
+            "editor": "DynamicValue",
+            "name": "system",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        },
+        "AAd": {
+            "caption": "User Input",
+            "default_val": "What is the meaning of life?",
+            "doc": "The Prompt from the user",
+            "editor": "DynamicValue",
+            "name": "user",
+            "rank": 4,
+            "value": "text"
+        },
+        "AAe": {
+            "caption": "Temperature",
+            "default_val": 0.7,
+            "doc": "Model Accuracy Temperature: Closer to 0 is more accurate and closer to 1 is more random",
+            "editor": "DynamicValue",
+            "name": "temperature",
+            "rank": 5,
+            "value": "number"
+        }
+    }
+}

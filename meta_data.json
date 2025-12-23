@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "productivity"
+    },
+    "data_tracked": false,
+    "demo_page": "https://universal-streaming.bubbleapps.io/version-test",
+    "description": "🚀 Universal AI Assistant - Integrate multiple AI services into your Bubble app!\nThis versatile element allows you to connect with various AI providers, including:\n\n🧠 OpenAI\n🔮 Anthropic\n⚡ Groq\n🌟 And any other AI service with a compatible API endpoint\n\nKey features:\n✨ Customizable API endpoint\n🔑 Secure API key management\n🤖 Support for different AI models\n💬 Real-time response streaming\n📊 Token usage and response time tracking\n🎛️ Adjustable parameters (temperature, max tokens, etc.)\nEasily add powerful AI capabilities to your Bubble application with a single, flexible element!",
+    "image": "//meta-q.cdn.bubble.io/f1718191925323x293180554843625000/DALL%C2%B7E%202024-06-12%2014.07.15%20-%20Design%20a%20logo%20for%20Universal%20Streaming%20Plugin%20with%20a%20white%20background.%20The%20logo%20should%20feature%20a%20central%20stylized%20AI%20brain%20with%20a%20gradient%20for%20a%20futuri.jpg",
+    "license": "open_source",
+    "name": "🚀 Universal Streaming",
+    "sa_node_version": 18
+}

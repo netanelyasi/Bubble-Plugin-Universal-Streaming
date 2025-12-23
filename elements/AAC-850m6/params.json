@@ -1,0 +1,60 @@
+{
+    "add_is_visible": true,
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 83,
+        "width": 195
+    },
+    "display": "UniversalStreaming",
+    "events": {
+        "AAK": {
+            "caption": "Output Generation Completed",
+            "name": "output_generation_completed"
+        },
+        "ABC": {
+            "caption": "Output Cleared",
+            "name": "output_cleared"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "AAJ": {
+            "caption": "output",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n    return \"\";\n}\n"
+            },
+            "name": "output",
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "Response Time",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "response_time",
+            "value": "number"
+        },
+        "AAM": {
+            "caption": "Tokens",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "tokens",
+            "value": "number"
+        },
+        "AAh": {
+            "caption": "Error",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "error",
+            "value": "text"
+        }
+    }
+}
